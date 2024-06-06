@@ -1,0 +1,103 @@
+.ctm-navbar{
+    background: #3b5d50 !important;
+}
+
+.ctm-bg{
+    height: 500px;
+    background: #3b5d50 !important;
+}
+
+.ctm-btn{
+    background: #3b5d50 !important;
+}
+
+footer li a{
+    
+    color: white;
+}
+
+.carousel-item {
+    height: 60vh; /* Half of the viewport height */
+  }
+  .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+  }
+  .carousel-caption {
+    bottom: 20px;
+  }
+  .carousel-caption .btn {
+    font-size: 1.2rem;
+  }
+
+  .video-card {
+    width: 240px;
+    margin: 0 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-top: 177.78%; /* 9:16 Aspect Ratio (for reels-like video) */
+    overflow: hidden;
+}
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.product-info {
+    padding: 10px;
+    text-align: center;
+}
+.product-info img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.scrolling-wrapper {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none; /* Firefox */
+}
+.scrolling-wrapper::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+}
+.modal-content {
+    display: flex;
+}
+.modal-video {
+    flex: 1;
+    padding: 20px;
+}
+.modal-details {
+    flex: 1;
+    padding: 20px;
+}
+.modal-details img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.modal-nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    z-index: 1051; /* Ensure buttons are above modal */
+}
+.modal-nav-prev {
+    left: 10px;
+}
+.modal-nav-next {
+    right: 10px;
+}
